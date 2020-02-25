@@ -8,9 +8,9 @@ chmod +x ts
 ./ts
 }
 get() {
-rm -fr BROK.lua
+rm -fr BROKK.lua
 rm -fr sudo.lua
-wget "https://github.com/teamzbrok/BROKK"
+wget "https://raw.githubusercontent.com/teamzbrok/BROKK/master/BROKK.lua"
 lua start.lua
 }
 installall(){
@@ -51,4 +51,4 @@ cd BROKK
 rm -rf luarocks*
 lua start.lua
 
-
+ 
